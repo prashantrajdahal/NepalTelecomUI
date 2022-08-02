@@ -1,0 +1,43 @@
+:root{
+    --main-bg:#0490e0;
+  }
+  
+  .main-bg {
+    background: var(--main-bg) !important;
+  }
+  
+  input:focus, button:focus {
+    border: 1px solid var(--main-bg) !important;
+    box-shadow: none !important;
+  }
+  
+  .form-check-input:checked {
+    background-color: var(--main-bg) !important;
+    border-color: var(--main-bg) !important;
+  }
+  
+  .card, .btn, input{
+    border-radius:0 !important;
+  }
+  
+  #logo{
+    padding:10px;
+    width:50%;
+    height:50%;
+    border-radius:50%;
+
+  }
+
+  #login{
+    background-color:var(--main-bg);
+    color:white;
+    font-weight:bold;
+    border-radius: 30px !important;
+  }
+  #login:hover{
+    background:rgb(19, 0, 126);
+    color:white;
+    transform:scale(1.05);
+    transition:all 1s ease-in-out;
+  }
+
